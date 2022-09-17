@@ -26,36 +26,93 @@
           font-size: 11px;
         }
 
-        .navbar {
+        header {
             background-color: #E83E8C;
+        }
+
+        .card img {
+          height: 132px;
         }
 
         .titulo {
             color: #707070;
-            font-size: 35px;
             text-align: center;
             font-weight: 700;
+        }
+
+        @media screen and (min-width: 321px) {
+          .titulo {
+            font-size: 60px;
+          }
+        }
+
+        @media screen and (max-width: 320px) {
+          .titulo {
+            font-size: 35px;
+          }
+        }
+
+        .container {
+          max-width: 1000px;
+        }
+
+        .card {
+          color: #373A3C;
+        }
+
+        .card-text {
+          font-size: 16px;
+          font-weight: 400;
+          height: 50px;
+          overflow: hidden;
         }
 
         .card-title {
             font-weight: 700;
-            font-size: 16px;
+            font-size: 17px;
         }
 
-        footer {
-            background-color: #E83E8C;
-            text-align: center;
-            height: 184px;
+        .card-link {
+          color: #1C7CD5;
         }
 
+        .list-group-item {
+          color: #373A3C;
+        }
+
+        .ft-pago {
+          background-color: #17A2B8;
+          font-size: 40px;
+          color: white;
+          font-weight: 700;
+          height: 170px;
+          align-items: center;
+        }
+
+        .ft-icon {
+          font-size: 50px;
+        }
+
+        footer .ft-suricata {
+          background-color: #E83E8C;
+          height: 184px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .responsive {
+          width: 11vw;
+          max-width: 53px;
+          height: auto;
+        }
 
     </style>
-
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar mx-4 navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.png" height="53" width="132" alt="logo">
@@ -64,7 +121,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
@@ -81,14 +138,15 @@
     </header>
 
     <main>
-
+      <div class="col-12 pt-5 pb-4">
         <h1 class="titulo">Nuestros Productos</h1>
-        
-        <section>
+      </div>
+
+        <section class="pt-auto">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/colaciones.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Colaciones</h5>
@@ -104,8 +162,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/desayunos.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Desayunos</h5>
@@ -121,8 +179,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/bebidas.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Bebidas</h5>
@@ -138,8 +196,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/verduras.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Verduras</h5>
@@ -155,8 +213,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/dulces.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Dulces</h5>
@@ -172,8 +230,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                        <div class="col-12 col-md-4 pt-3 pb-5">
+                            <div class="card mx-auto" style="width: 248px;">
                                 <img src="assets/img/empanadas.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 class="card-title">Empanadas</h5>
@@ -195,8 +253,26 @@
 
     </main>
 
-    <footer>
-       <img src="assets/img/logo-footer.png" alt="logo-footer" width="53.32" height="100.45">
+    <footer class="col-12 pt-5">
+      <div class="d-none d-md-block">
+        <div class="ft-pago d-flex justify-content-center">
+          <div class="ft-texto d-inline-flex mx-5">
+              <p>Ahora aceptamos</p>
+            <div class="ft-icon d-inline-flex mx-5">
+              <i class="fa-brands fa-cc-visa mx-auto px-3"></i>
+              <i class="fa-brands fa-cc-mastercard mx-auto px-3"></i>
+              <i class="fa-brands fa-cc-amex mx-auto px-3"></i>
+              <i class="fa-brands fa-cc-diners-club mx-auto px-3"></i>
+              <i class="fa-brands fa-cc-paypal mx-auto px-3"></i>
+              <i class="fa-brands fa-cc-discover mx-auto px-3"></i>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="ft-suricata">
+            <img class="responsive" src="assets/img/logo-footer.png" alt="logo-footer" width="53.32" height="100.45">
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
