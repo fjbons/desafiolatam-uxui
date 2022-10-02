@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #28A745;
+}
+
+.navbar-brand img {
+    width: 86px;
+}
+
+.card {
+    max-width: 278px;
+    align-items: center;
+} 
+
+.card img {
+    height: 180px;
+    width: 276px;
+}
+
+.card-body {
+    width: 278px;
+    height: 199px;
+    padding: 14px 16px 15px 16px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 300;
+    margin-bottom: 11px;
+    height: 73px;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;
+    height: 21px;
+}
+
+.card-text {
+    font-size: 13px;
+    color: #707070;
+    font-weight: 300;
+    padding: 0px auto;
+    margin: 0px;
+    height: 15px;
+}
+
+hr {
+    padding: 0px;
+    margin-top: 10.5px;
+    margin-bottom: 0px;
+}
+
+.oferta {
+    height: 24px;
+}
+
+.precio {
+    font-size: 16px;
+    color: #707070;
+    margin: 0px 0px;
+    height: 24px;
+    padding-top: 13px;
+}
+
+.precio-oferta {
+    font-size: 20px;
+    color: #28A745;
+    padding-left: 11px;
+    padding-right: 7px;
+    height: 24px;
+}
+
+.form-group {
+    background-color: #28A745;
+    height: 241px;
+}
+
+.titulo-formulario {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+ .btn {
+    font-weight: 500;
+    font-size: 16px;
+    width: 112px;
+ }
+
+.form-control {
+    display: flex;
+    font-weight: 300;
+    max-width: 278px;
+}
+
+.marca {
+    height: 118px;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;
+    text-align: center;
+}
+
+.marca img {
+    height: 24px;
+    width: 82px;
+}

@@ -1,0 +1,233 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #373a3c;
+  }
+  
+  .navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .titulo {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .carousel-indicators {
+    vertical-align: middle;
+    top: 107%;
+  }
+  
+  .carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: #373A3C !important;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .ingredientes {
+    padding: 0;
+    color: #373A3C;
+    font-size: 20px;
+  }
+
+  .preparacion {
+    padding: 0;
+    color: #373A3C;
+    font-size: 20px;
+  }
+
+  .suscribe {
+    color: white;
+    background-color: #DC3545;
+  }
+
+  .ricomida {
+    font-weight: 400;
+    font-size: 37px;
+    color: white;
+    background-color: #373A3C;
+    vertical-align: middle;
+  }
+
+  .texto-footer-newsletter {
+    font-family: 'Lobster', cursive;
+  }
+
+  .empezar {
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    width: 233px;
+
+  }
+
+  .texto-footer {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+  }
+
+  @media screen and (min-width: 320px) {
+    
+
+    .navbar {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    #enviarCorreo {
+      height: 40px;
+      font-size: 13px;
+      width: 112px;
+      padding: 0;
+    }
+
+    #añadir {
+      height: 40px;
+      font-size: 13px;
+      width: 112px;
+      padding: 0;
+    }
+
+    .card {
+      width: 246px;
+      text-align: center;
+      padding: 0;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 17px;
+      text-align: left;
+    }
+
+    .card-body {
+      font-size: 16px;
+      text-align: left;
+    }
+    
+    .receta {
+      padding-left: 37px;
+      padding-right: 37px;
+    }
+
+    .titulo {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .subtitulo {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .recetas-relacionadas {
+      font-size: 25px;
+      font-weight: 700;
+      padding-left: 37px;
+      padding-right: 37px;
+    }
+    .suscribe {
+      padding-top: 95px;
+      padding-bottom: 95px;
+    }
+
+    .newsletter {
+      font-size: 30px;
+      font-weight: 700px;
+      padding-bottom: 22px;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin: 0;
+      padding-bottom: 27px;
+    }
+    
+  }
+
+  @media screen and (min-width: 321px) {
+    #enviarCorreo {
+      height: 40px;
+      font-size: 16px;
+      width: 141px;
+    }
+
+    #añadir {
+      height: 40px;
+      font-size: 16px;
+      width: 141px;
+    }
+
+    .card {
+      width: 316px;
+      text-align: center;
+      padding: 0;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 23px;
+      text-align: left;
+    }
+
+    .card-body {
+      font-size: 16px;
+      text-align: left;
+    }
+
+    .titulo {
+      text-align: left;
+      font-size: 40px;
+    }
+
+    .subtitulo {
+      font-size: 20px;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    .recetas-relacionadas {
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    .suscribe {
+      padding-top: 150px;
+      padding-bottom: 197px;
+    }
+
+    .newsletter {
+      font-size: 40px;
+      font-weight: 700;
+      padding-bottom: 7px;
+    }
+
+    h3 {
+      font-size: 30px;
+      padding-bottom: 39px;
+    }
+  }
+  
